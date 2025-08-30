@@ -46,6 +46,8 @@ cd <YOUR_NEW_REPO_NAME>
 > ```bash
 > git submodule update --init --recursive
 > ```
+>git clone --recurse-submodules ...: You use this command when you are cloning a repository that already contains submodules. It tells git to download the main repository and all its submodules at the same time.
+>git submodule update --init --recursive: You use this if you've already cloned a repository but forgot to use --recurse-submodules. It initializes and fetches the submodule code.
 
 ### Add your submodules
 
